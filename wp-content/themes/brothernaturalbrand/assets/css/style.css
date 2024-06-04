@@ -1,0 +1,1782 @@
+*,
+body {
+  box-sizing: border-box;
+  font-family: "Product Sans";
+}
+
+a.navbar-brand .logo {
+  width: 118px;
+  height: auto;
+}
+
+.hero-section {
+  background-image: url("../images/herobgimg.png");
+  background-size: 100% 100%;
+  background-position: top;
+}
+
+.header-right-top {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  border-bottom: 1px solid rgba(248, 248, 250, 1);
+  width: 100%;
+  padding: 5px 0 12px;
+}
+
+.header-right-section {
+  width: 100%;
+}
+
+a.navbar-brand {
+  margin-right: 0;
+  margin-top: 5px;
+  padding: 0;
+}
+
+.navbar-expand-lg .header-right-section ul.navbar-nav {
+  padding: 9px 0 20px;
+  justify-content: flex-end;
+}
+
+.navbar-expand-lg .header-right-section ul.navbar-nav li a {
+  padding: 0;
+}
+
+.navbar-expand-lg .header-right-section ul.navbar-nav li {
+  margin-left: 80px;
+}
+
+.navbar-expand-lg .header-right-section ul.navbar-nav li a {
+  padding: 0;
+  font-family: "Product Sans";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19.41px;
+  text-align: left;
+  color: rgba(248, 248, 250, 1);
+}
+
+.btn.common-btn.white-btn {
+  font-family: "Product Sans";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19.41px;
+  text-align: left;
+  background: rgba(248, 248, 250, 1);
+  color: rgba(13, 115, 59, 1);
+  padding: 11px 24px 10px;
+  border: none;
+  margin-right: 23px;
+  box-shadow: none;
+  outline: none;
+}
+
+.social-icons a {
+  color: rgba(248, 248, 250, 1);
+  font-size: 22px;
+  width: 24px;
+  height: 24px;
+  line-height: 1;
+  text-align: center;
+}
+
+.social-icons {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.herovideobox h1 span {
+  letter-spacing: 0.02em;
+  font-family: "MADE Mellow PERSONAL USE";
+  color: rgba(255, 237, 0, 1);
+}
+
+.herovideobox h1 {
+  font-family: "MADE Mellow PERSONAL USE";
+  font-size: 60px;
+  font-weight: 500;
+  line-height: 78.2px;
+  text-align: left;
+  color: rgba(255, 255, 255, 1);
+  margin: 0;
+  text-transform: uppercase;
+}
+
+.herovideobox {
+  margin-top: 41px;
+  padding-left: 31px;
+  position: relative;
+}
+
+.herovideobox h1::before {
+  position: absolute;
+  width: 11px;
+  content: "";
+  left: 0;
+  top: 50%;
+  transform: translatey(-50%);
+  background: rgba(140, 188, 161, 1);
+  height: 142px;
+}
+
+.video-wrapper {
+  width: 709px;
+  height: 430px;
+  max-width: 100%;
+  margin: 43px auto 60px;
+}
+
+.video-wrapper video {
+  border: 2px solid rgba(255, 237, 0, 1);
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+  object-fit: cover;
+}
+
+h1.about-title::before {
+  position: absolute;
+  content: "";
+  background: rgba(196, 171, 211, 1);
+  width: 11px;
+  height: 100%;
+  left: 0;
+  top: 0;
+  z-index: 10;
+}
+
+h1.about-title {
+  position: relative;
+  font-family: "MADE Mellow PERSONAL USE";
+  font-size: 56px;
+  font-weight: 500;
+  line-height: 78.4px;
+  text-align: left;
+  padding-left: 31px;
+  color: rgba(196, 171, 211, 1);
+  margin: 0 0 8px;
+  text-transform: uppercase;
+  padding-top: 14px;
+  padding-bottom: 14px;
+}
+
+.about-section>h4 {
+  font-family: "MADE Mellow PERSONAL USE";
+  font-size: 36px;
+  font-weight: 500;
+  line-height: 50.4px;
+  text-align: center;
+  color: rgba(140, 188, 161, 1);
+  margin: 0 0 32px;
+  text-transform: uppercase;
+}
+
+.about-section p {
+  font-family: "Product Sans";
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24.26px;
+  text-align: left;
+  margin: 0 0 24px;
+  color: rgba(196, 171, 211, 1);
+}
+
+.about-section {
+  padding-bottom: 30px;
+}
+
+.product-wheretobuy-section {
+  background-image: url("../images/OurProducts.png");
+  background-size: 100% 100%;
+  background-position: top;
+  padding: 65px 0 0;
+}
+
+.custom-title-box {
+  position: relative;
+  padding: 12px 0 19px 31px;
+}
+
+.custom-title-box h1 {
+  font-family: "MADE Mellow PERSONAL USE";
+  font-size: 56px;
+  font-weight: 500;
+  line-height: 78.4px;
+  text-align: left;
+  color: rgba(13, 115, 59, 1);
+  margin: 0px 0 -6px;
+  text-transform: uppercase;
+}
+
+.custom-title-box p {
+  font-family: "Product Sans";
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24.69px;
+  text-align: left;
+  color: rgba(13, 115, 59, 1);
+  margin: 0;
+}
+
+.custom-title-box::before {
+  position: absolute;
+  content: "";
+  width: 11px;
+  height: 100%;
+  background: rgba(13, 115, 59, 1);
+  top: 0;
+  left: 0;
+}
+
+.product-list {
+  padding: 76px 120px 0px;
+  display: flex;
+  flex-direction: column;
+  gap: 34px;
+  width: 100%;
+}
+
+.product-item {
+  background: linear-gradient(90deg, #8cbca1 0%, rgba(255, 237, 0, 0.8) 100%);
+  padding: 56px 65px;
+  display: flex;
+  align-items: center;
+  gap: 32px;
+  width: 100%;
+}
+
+.productimgwrappwer {
+  width: 40%;
+  text-align: right;
+}
+
+.product-content {
+  width: 60%;
+  flex: 1 0 0;
+}
+
+.productimgwrappwer img {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+}
+
+.product-content h3 {
+  font-family: "MADE Mellow PERSONAL USE";
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 28.64px;
+  color: rgba(13, 115, 59, 1);
+  margin: 0 0 18px;
+  text-transform: uppercase;
+}
+
+.product-content p {
+  font-family: "Product Sans";
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24.26px;
+  color: rgba(13, 115, 59, 1);
+  margin: 0 0 20px;
+}
+
+.product-content h4 {
+  font-family: "MADE Mellow PERSONAL USE";
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 38.64px;
+  color: rgba(13, 115, 59, 1);
+  margin: 0;
+  text-transform: uppercase;
+}
+
+.product-item.productalter .product-content {
+  text-align: right;
+}
+
+.product-item.productalter .productimgwrappwer {
+  text-align: left;
+}
+
+.product-item.productalter {
+  flex-direction: row-reverse;
+}
+
+.wheretobuy>p span {
+  font-weight: 700;
+  font-style: italic;
+}
+
+.wheretobuy>p {
+  font-family: "Product Sans";
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24.69px;
+  text-align: left;
+  color: rgba(13, 115, 59, 1);
+  margin: 6px 0 51px;
+  padding: 0 0 0 31px;
+}
+
+.wheretobuy {
+  padding: 76px 0 35px;
+}
+
+.searchform {
+  padding: 0 30px;
+}
+
+.searchform label {
+  font-family: "Product Sans";
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24.69px;
+  text-align: left;
+  margin: 0 0 11px;
+  color: rgba(13, 115, 59, 1);
+}
+
+.formbox {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  gap: 21px;
+}
+
+button.btn.searchbtn img {
+  width: 20px;
+  height: auto;
+}
+
+button.btn.searchbtn {
+  background: rgba(13, 115, 59, 1);
+  min-width: 65px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 6px;
+}
+
+.formbox input.form-control {
+  border: 2px solid rgba(13, 115, 59, 1);
+  width: 100%;
+  height: 48px;
+  font-family: "Product Sans";
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 19.41px;
+  text-align: left;
+  color: rgba(13, 115, 59, 1);
+  box-shadow: none;
+  outline: none;
+  background: transparent;
+}
+
+.map-list-box iframe {
+  width: 100%;
+  height: 795px;
+}
+
+.map-list-box {
+  display: flex;
+  align-items: flex-start;
+}
+
+.map-list-box .maplist {
+  min-width: 498px;
+  max-width: 100%;
+}
+
+a.maplist-item:last-child {
+  border-bottom: 0.5px solid rgba(13, 115, 59, 1);
+}
+
+a.maplist-item {
+  border-top: 0.5px solid rgba(13, 115, 59, 1);
+  display: block;
+  padding: 17px 13px;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+a.maplist-item h4 {
+  font-family: "Product Sans";
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 31.54px;
+  text-align: left;
+  margin: 0 0 21px;
+}
+
+a.maplist-item:last-child {
+  border-bottom: 0.5px solid rgba(13, 115, 59, 1);
+}
+
+a.maplist-item {
+  border-top: 0.5px solid rgba(13, 115, 59, 1);
+  display: block;
+  padding: 17px 13px;
+  box-sizing: border-box;
+  width: 100%;
+  text-decoration: none;
+  color: rgba(13, 115, 59, 1);
+}
+
+.mapcontent {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+
+.mapleftdata h5 {
+  font-family: "Product Sans";
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 27.54px;
+  text-align: left;
+  margin: 0 0 7px;
+}
+
+.mapleftdata p {
+  font-family: "Product Sans";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 22.69px;
+  text-align: left;
+  margin: 0;
+}
+
+.direction {
+  font-family: "Product Sans";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 22.69px;
+  text-align: left;
+  padding-bottom: 4px;
+  border-bottom: 0.5px solid rgba(13, 115, 59, 1);
+  margin-bottom: 2px;
+  margin-right: 40px;
+}
+
+.contact-footer-section {
+  background-image: url(../images/contactfooter.png);
+  background-size: 100% 100%;
+  background-position: top;
+  padding-top: 75px;
+  background-repeat: no-repeat;
+}
+
+.contactbox {
+  display: flex;
+  align-items: center;
+  gap: 29px;
+  padding-bottom: 214px;
+}
+
+.contacttitle h1 {
+  font-family: "MADE Mellow PERSONAL USE";
+  font-size: 56px;
+  font-weight: 500;
+  line-height: 78.4px;
+  text-align: left;
+  color: rgba(108, 44, 145, 1);
+  margin: 4px 0 0;
+  text-transform: uppercase;
+}
+
+.contacttitle {
+  width: 454px;
+  max-width: 100%;
+  position: relative;
+  padding-left: 31px;
+}
+
+.contacttitle::before {
+  position: absolute;
+  content: "";
+  width: 11px;
+  height: 142px;
+  background: rgba(108, 44, 145, 1);
+  top: 0;
+  left: 0;
+  z-index: 10;
+}
+
+.contacttitle p {
+  font-family: "Product Sans";
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24.69px;
+  text-align: left;
+  color: rgba(108, 44, 145, 1);
+  margin: 0;
+}
+
+.contact-form h2 {
+  font-family: "MADE Mellow PERSONAL USE";
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 44.8px;
+  text-align: center;
+  color: rgba(255, 237, 0, 1);
+  margin: 0 0 33px;
+  text-transform: uppercase;
+}
+
+.contact-form {
+  flex: 1 0 0;
+  background: rgba(0, 0, 0, 1);
+  padding: 60px 29px 64px;
+}
+
+.contact-form .form-group {
+  margin-bottom: 16px;
+}
+
+.contact-form .form-group .form-control {
+  border: 2px solid rgba(255, 237, 0, 1);
+  height: 48px;
+  background: transparent;
+  padding: 6px 15px;
+  border-radius: 6px;
+  font-family: "Product Sans";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19.41px;
+  text-align: left;
+  color: rgba(255, 237, 0, 1);
+  box-shadow: none;
+  outline: none;
+}
+
+.contact-form .form-group .form-control::placeholder {
+  color: rgba(255, 237, 0, 1);
+  opacity: 1;
+}
+
+button.btn.contactbtn {
+  background: rgba(255, 237, 0, 1);
+  width: 100%;
+  height: 48px;
+  font-family: "Product Sans";
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 19.41px;
+  color: rgba(108, 44, 145, 1);
+}
+
+.contact-form .form-btn {
+  padding-top: 5px;
+}
+
+.footer-section {
+  padding-top: 125px;
+  text-align: center;
+}
+
+img.footer-logo {
+  width: 128px;
+  height: auto;
+}
+
+.footer-menu {
+  margin: 25px 0 30px;
+  display: flex;
+  justify-content: center;
+  gap: 80px;
+}
+
+.footer-menu a {
+  font-family: "Product Sans";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19.41px;
+  text-align: left;
+  color: rgba(255, 255, 255, 1);
+  text-decoration: none;
+  opacity: 0.7;
+}
+
+button.btn.footerbtn {
+  background: rgba(196, 171, 211, 1);
+  border-radius: 10px;
+  font-family: "Product Sans";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19.41px;
+  text-align: center;
+  color: rgba(108, 44, 145, 1);
+  padding: 11px 29px 10px;
+  border: none;
+  outline: none;
+  margin-bottom: 27px;
+}
+
+.footer-text {
+  font-family: "MADE Mellow PERSONAL USE";
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 28.64px;
+  text-align: center;
+  color: rgba(196, 171, 211, 1);
+  text-transform: uppercase;
+}
+
+.copyrightsection {
+  padding: 30px 32px 25px;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.copyrighttext {
+  font-family: "Product Sans";
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 26.69px;
+  text-align: left;
+  color: rgba(255, 255, 255, 1);
+  opacity: 0.7;
+}
+
+.footer-social-box {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.footer-social-box a {
+  color: rgba(140, 188, 161, 1);
+  font-size: 22px;
+  width: 24px;
+  height: 24px;
+  line-height: 1;
+  text-align: center;
+}
+
+.mobile-productlist {
+  display: none !important;
+}
+
+a.maplist-item:hover,
+a.maplist-item.selected {
+  background: rgb(13 115 59 / 9%);
+}
+
+a.scroll-to-top {
+  position: fixed;
+  bottom: 80px;
+  width: 61px;
+  height: 55px;
+  background: rgba(13, 115, 59, 1);
+  display: flex;
+  border-radius: 6px;
+  text-decoration: none;
+  color: #fff;
+  font-size: 44px;
+  line-height: 1;
+  right: 60px;
+  box-shadow: 0 0px 11px #777;
+  z-index: 100;
+  padding: 5px 0 6px;
+  display: none;
+  text-align: center;
+}
+
+:root {
+  scroll-behavior: unset;
+}
+
+.agemodalwrapper {
+  display: flex;
+  width: 100%;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+  background-image: url("../images/initialpagebg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 40px 20px;
+}
+
+.ageconfirmationmodal {
+  border: 3px solid rgba(13, 115, 59, 1);
+  border-radius: 14px;
+  background-image: url("../images/modalbg.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  padding: 174px 30px 171px;
+  text-align: center;
+  width: 1028px;
+  max-width: 95%;
+}
+
+.ageconfirmationmodal h5 {
+  font-family: "Product Sans";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21.83px;
+  text-align: center;
+  color: #000;
+  margin: 0 0 14px;
+}
+
+.ageconfirmationmodal h1 {
+  font-family: "MADE Mellow PERSONAL USE";
+  font-size: 56px;
+  font-weight: 500;
+  line-height: 78.4px;
+  text-align: center;
+  margin: 0 0 19px;
+  color: rgba(13, 115, 59, 1);
+}
+
+.ageconfirmationmodal p {
+  font-family: "Product Sans";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 23.09px;
+  text-align: center;
+  color: #000;
+  margin: 0 auto 43px;
+  max-width: 385px;
+}
+
+.btns-group {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 42px;
+}
+
+.btn.self-theme-btn:hover {
+  background: rgba(13, 115, 59, 1);
+  color: #fff;
+}
+
+.btn.self-theme-btn {
+  border: 2px solid rgba(13, 115, 59, 1);
+  width: 129px;
+  height: 48px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Product Sans";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19.41px;
+  text-align: center;
+  color: rgba(13, 115, 59, 1);
+  outline: none;
+  box-shadow: none;
+}
+
+.contacttitle h1 {
+  font-family: "MADE Mellow PERSONAL USE";
+  font-size: 56px;
+  font-weight: 500;
+  line-height: 78.4px;
+  text-align: left;
+  color: rgba(108, 44, 145, 1);
+  margin: 4px 0 12px;
+  text-transform: uppercase;
+}
+
+.error {
+  color: red;
+}
+
+/* =================== media query start ================= */
+@media (prefers-reduced-motion: no-preference) {
+  :root {
+    scroll-behavior: unset;
+  }
+}
+
+@media (min-width: 1400px) {
+
+  .container,
+  .container-lg,
+  .container-md,
+  .container-sm,
+  .container-xl,
+  .container-xxl {
+    max-width: 1320px;
+  }
+}
+
+@media (min-width: 1260px) {
+
+  .container,
+  .container-lg,
+  .container-md,
+  .container-sm,
+  .container-xl {
+    max-width: 1160px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .ageconfirmationmodal {
+    padding: 125px 30px 120px;
+  }
+
+  .container {
+    max-width: 90%;
+  }
+
+  .herovideobox h1,
+  h1.about-title,
+  .custom-title-box h1,
+  .contacttitle h1 {
+    font-size: 52px;
+    line-height: 70.2px;
+  }
+
+  .about-section>h4 {
+    font-size: 34px;
+    line-height: 50.2px;
+  }
+
+  .product-item {
+    padding: 40px;
+  }
+
+  .contact-form {
+    padding: 50px 29px 55px;
+  }
+
+  .direction {
+    margin-right: 20px;
+  }
+
+  a.maplist-item h4 {
+    font-size: 24px;
+    line-height: 29.54px;
+    margin: 0 0 19px;
+  }
+
+  .map-list-box .maplist {
+    min-width: 430px;
+  }
+
+  .product-list {
+    padding: 60px 45px 0px;
+  }
+
+  .map-list-box iframe {
+    width: 100%;
+    height: 750px;
+  }
+
+  .contacttitle {
+    width: 385px;
+  }
+}
+
+@media (max-width: 991px) {
+  .container {
+    max-width: 95%;
+  }
+
+  .navbar .navbar-collapse {
+    flex: 1 0 0;
+  }
+
+  .navbar-expand-lg .header-right-section ul.navbar-nav {
+    flex-direction: row;
+  }
+
+  .header-right-top {
+    padding: 7px 0 12px;
+  }
+
+  .herovideobox h1,
+  h1.about-title,
+  .custom-title-box h1,
+  .contacttitle h1 {
+    font-size: 48px;
+    line-height: 64.2px;
+  }
+
+  .about-section>h4 {
+    font-size: 28px;
+    line-height: 40.2px;
+  }
+
+  .about-section p {
+    font-size: 18px;
+    line-height: 22.26px;
+  }
+
+  .product-item {
+    padding: 28px;
+  }
+
+  .productimgwrappwer {
+    width: 39%;
+  }
+
+  .product-list {
+    padding: 45px 0px 0px;
+  }
+
+  .wheretobuy>p {
+    font-size: 18px;
+    line-height: 22.69px;
+    margin: 6px 0 40px;
+  }
+
+  .map-list-box .maplist {
+    min-width: 45%;
+  }
+
+  .map-list-box iframe {
+    width: 100%;
+    height: 600px;
+  }
+
+  .product-content h4,
+  .product-content h3 {
+    font-size: 20px;
+  }
+
+  .product-content p {
+    font-size: 18px;
+    line-height: 22.26px;
+  }
+
+  a.maplist-item h4 {
+    font-size: 22px;
+    line-height: 28.39px;
+  }
+
+  .mapleftdata h5 {
+    font-size: 20px;
+    line-height: 25.54px;
+  }
+
+  .contacttitle p {
+    font-size: 18px;
+    line-height: 22.69px;
+  }
+
+  .contact-form {
+    padding: 40px 29px 40px;
+  }
+
+  .mapcontent {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+  }
+
+  .contacttitle {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+
+  .contactbox {
+    flex-wrap: wrap;
+    padding-bottom: 50px;
+  }
+
+  .contact-footer-section {
+    padding-top: 60px;
+  }
+
+  .video-wrapper {
+    height: 400px;
+  }
+
+  img.footer-logo {
+    width: 118px;
+  }
+
+  .btn.common-btn.white-btn {
+    padding: 9px 24px 10px;
+  }
+
+  .social-icons a {
+    font-size: 20px;
+    width: 22px;
+    height: 22px;
+  }
+
+  .custom-title-box p {
+    font-size: 18px;
+    line-height: 24.69px;
+  }
+
+  .contact-form .form-group {
+    margin-bottom: 24px;
+  }
+
+  .contact-form .form-btn {
+    padding-top: 8px;
+  }
+
+  .footer-text {
+    font-size: 20px;
+    line-height: 28.85px;
+  }
+
+  .copyrighttext {
+    font-size: 18px;
+    line-height: 24.69px;
+  }
+
+  .footer-social-box a {
+    font-size: 20px;
+    width: 22px;
+    height: 22px;
+  }
+
+  button.btn.searchbtn img {
+    width: 18px;
+    height: auto;
+  }
+
+  .formbox {
+    gap: 18px;
+  }
+
+  .ageconfirmationmodal {
+    padding: 105px 30px 100px;
+  }
+
+  .ageconfirmationmodal h5 {
+    font-size: 16px;
+    line-height: 19.83px;
+  }
+
+  .ageconfirmationmodal h1 {
+    font-size: 54px;
+    line-height: 74.4px;
+  }
+
+  .ageconfirmationmodal p {
+    font-size: 16px;
+    line-height: 21.09px;
+    margin: 0 auto 35px;
+    max-width: 345px;
+  }
+
+  .btns-group {
+    gap: 30px;
+  }
+
+  .searchform label {
+    font-size: 18px;
+    line-height: 22.69px;
+  }
+}
+
+@media (max-width: 767px) {
+  .desktop-productlist {
+    display: none !important;
+  }
+
+  .mobile-productlist {
+    display: block !important;
+  }
+
+  a.navbar-brand .logo {
+    width: 110px;
+  }
+
+  .navbar-expand-lg .header-right-section ul.navbar-nav li {
+    margin-left: 40px;
+  }
+
+  .btn.common-btn.white-btn {
+    padding: 9px 20px 9px;
+    margin-right: 20px;
+  }
+
+  .social-icons a {
+    font-size: 18px;
+    width: 20px;
+    height: 20px;
+  }
+
+  .herovideobox h1,
+  h1.about-title,
+  .custom-title-box h1,
+  .contacttitle h1,
+  .contact-form h2 {
+    font-size: 34px;
+    line-height: 46.2px;
+  }
+
+  .herovideobox h1::before {
+    height: 100%;
+  }
+
+  .container {
+    max-width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .video-wrapper {
+    max-width: calc(100% - 62px);
+  }
+
+  .video-wrapper {
+    max-width: calc(100% - 62px);
+    height: 260px;
+  }
+
+  .about-section>h4 {
+    font-size: 22px;
+    line-height: 32.2px;
+    margin-bottom: 22px;
+  }
+
+  .about-section p {
+    font-size: 16px;
+    margin: 0 0 18px;
+    line-height: 20.69px;
+  }
+
+  .custom-title-box p {
+    font-size: 16px;
+    line-height: 20.69px;
+  }
+
+  .custom-title-box {
+    padding: 2px 0 2px 31px;
+  }
+
+  .product-content {
+    width: 100%;
+  }
+
+  .productimgwrappwer {
+    width: 100%;
+  }
+
+  .product-item.item {
+    flex-wrap: wrap;
+    background: linear-gradient(180deg,
+        #8cbca1 0%,
+        rgba(255, 237, 0, 0.8) 114.4%);
+    gap: 14px;
+    padding: 20px;
+  }
+
+  .product-list.owl-carousel.owl-theme.mobile-productlist {
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 30px;
+    position: relative;
+  }
+
+  .productimgwrappwer img {
+    width: 100%;
+  }
+
+  .product-content h4,
+  .product-content h3 {
+    font-size: 18px;
+    line-height: 25.85px;
+  }
+
+  .product-content p {
+    font-size: 16px;
+    line-height: 20.69px;
+    margin-bottom: 14px;
+  }
+
+  .product-content h3 {
+    margin-bottom: 11px;
+  }
+
+  .product-content h4 {
+    text-align: center;
+  }
+
+  .wheretobuy {
+    padding: 30px 0 26px;
+  }
+
+  .wheretobuy>p {
+    font-size: 16px;
+    line-height: 20.69px;
+  }
+
+  .searchform label {
+    font-size: 18px;
+    line-height: 23.69px;
+  }
+
+  .formbox input.form-control {
+    height: 42px;
+    font-size: 16px;
+    line-height: 20px;
+    border-width: 1px;
+  }
+
+  .contact-form .form-group .form-control {
+    height: 42px;
+    font-size: 16px;
+    line-height: 20px;
+    border-width: 1px;
+  }
+
+  button.btn.contactbtn {
+    height: 42px;
+    font-size: 18px;
+    line-height: 20px;
+  }
+
+  .map-list-box {
+    flex-wrap: wrap;
+  }
+
+  .map-list-box iframe {
+    width: 100%;
+    height: 493px;
+  }
+
+  .map-list-box .maplist {
+    width: 100%;
+    min-width: 100%;
+  }
+
+  a.maplist-item h4 {
+    font-size: 20px;
+    line-height: 26.39px;
+    margin: 0 0 8px;
+  }
+
+  .mapleftdata h5 {
+    font-size: 18px;
+    line-height: 22.54px;
+    margin: 0 0 3px;
+  }
+
+  .mapcontent {
+    flex-direction: row;
+    align-items: flex-end;
+    gap: 10px;
+  }
+
+  mapleftdata p {
+    font-size: 16px;
+    line-height: 20.69px;
+  }
+
+  .direction {
+    font-size: 18px;
+    line-height: 22.69px;
+    margin-right: 0px;
+  }
+
+  a.maplist-item {
+    padding: 17px 20px;
+  }
+
+  .contact-footer-section {
+    padding-top: 36px;
+  }
+
+  .contacttitle::before {
+    height: 100%;
+  }
+
+  .contacttitle {
+    width: 100%;
+    margin-bottom: 0;
+  }
+
+  .contactbox {
+    flex-wrap: wrap;
+    padding-bottom: 111px;
+    gap: 26px;
+  }
+
+  .contact-form {
+    padding: 20px;
+  }
+
+  .contact-form h2 {
+    margin-bottom: 25px;
+  }
+
+  .contact-form .form-group {
+    margin-bottom: 18px;
+  }
+
+  .contact-form .form-btn {
+    padding-top: 3px;
+  }
+
+  img.footer-logo {
+    width: 115px;
+    height: auto;
+  }
+
+  .footer-menu {
+    margin: 16px 0 14px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+  }
+
+  button.btn.footerbtn {
+    margin-bottom: 16px;
+  }
+
+  .footer-text {
+    font-size: 18px;
+    line-height: 24.85px;
+  }
+
+  .copyrightsection {
+    padding: 42px 20px 26px;
+  }
+
+  .copyrighttext {
+    font-size: 16px;
+    line-height: 20.69px;
+  }
+
+  .footer-social-box a {
+    font-size: 20px;
+    width: 20px;
+    height: 20px;
+  }
+
+  .product-list.owl-carousel.owl-theme.mobile-productlist button.owl-prev {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    font-size: 40px;
+    color: rgba(13, 115, 59, 1);
+    font-weight: 100;
+    line-height: 20px;
+    padding: 0 !important;
+    width: 32px;
+    height: auto;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 0;
+    background: transparent;
+    outline: none;
+    box-shadow: none;
+  }
+
+  .product-list.owl-carousel.owl-theme.mobile-productlist button.owl-next {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    font-size: 40px;
+    color: rgba(13, 115, 59, 1);
+    font-weight: 100;
+    line-height: 20px;
+    padding: 0 !important;
+    width: 32px;
+    height: auto;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 0;
+    background: transparent;
+    outline: none;
+    box-shadow: none;
+  }
+
+  .owl-theme .owl-nav {
+    margin-top: 0px;
+  }
+
+  .product-wheretobuy-section {
+    padding: 35px 0 0;
+    background-size: 100% auto;
+  }
+
+  button.btn.searchbtn {
+    min-width: 45px;
+    height: 42px;
+  }
+
+  button.btn.searchbtn img {
+    width: 20px;
+    height: auto;
+  }
+
+  .formbox {
+    gap: 16px;
+  }
+
+  .mapleftdata p {
+    font-size: 16px;
+    line-height: 20.69px;
+  }
+
+  .contacttitle p {
+    font-size: 16px;
+    line-height: 21px;
+  }
+
+  a.scroll-to-top {
+    bottom: 30px;
+    width: 50px;
+    height: 45px;
+    font-size: 38px;
+    line-height: 1;
+    right: 30px;
+    padding: 2px 0 4px;
+  }
+
+  .ageconfirmationmodal h1 {
+    font-size: 50px;
+    line-height: 68.4px;
+  }
+}
+
+@media (max-width: 575px) {
+  .container {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+
+  a.navbar-brand .logo {
+    width: 90px;
+  }
+
+  .social-icons a {
+    font-size: 18px;
+    width: 18px;
+    height: 18px;
+  }
+
+  .footer-social-box a {
+    font-size: 18px;
+    width: 18px;
+    height: 18px;
+  }
+
+  .btn.common-btn.white-btn {
+    font-size: 14px;
+    line-height: 16.69px;
+    padding: 8px 14px 7px;
+    margin-right: 15px;
+  }
+
+  .header-right-top {
+    padding: 20px 0 9px;
+  }
+
+  .navbar-expand-lg .header-right-section ul.navbar-nav {
+    flex-direction: row;
+    padding: 7px 0 16px;
+    margin-bottom: 0 !important;
+  }
+
+  .navbar-expand-lg .header-right-section ul.navbar-nav li a {
+    font-size: 14px;
+    line-height: 17px;
+  }
+
+  .navbar-expand-lg .header-right-section ul.navbar-nav li {
+    margin-left: 22px;
+  }
+
+  .herovideobox {
+    margin-top: 49px;
+    padding-left: 20px;
+    position: relative;
+  }
+
+  .herovideobox h1,
+  h1.about-title,
+  .custom-title-box h1,
+  .contacttitle h1,
+  .contact-form h2 {
+    font-size: 24px;
+    line-height: 33.6px;
+  }
+
+  .herovideobox h1::before {
+    height: 56px;
+    width: 8px;
+  }
+
+  .video-wrapper {
+    max-width: calc(100% - 32px);
+    height: 260px;
+    margin: 45px auto 32px;
+  }
+
+  h1.about-title {
+    height: 56px;
+    line-height: 56px;
+    padding-left: 20px;
+  }
+
+  h1.about-title::before {
+    width: 8px;
+    height: 56px;
+  }
+
+  .about-section>h4 {
+    font-size: 18px;
+    line-height: 25.2px;
+    margin-bottom: 22px;
+  }
+
+  .about-section p {
+    font-size: 14px;
+    margin: 0 0 18px;
+    line-height: 17px;
+  }
+
+  .about-section {
+    padding-bottom: 24px;
+  }
+
+  .custom-title-box p {
+    font-size: 14px;
+    line-height: 17px;
+  }
+
+  .custom-title-box::before {
+    width: 8px;
+    height: 56px;
+  }
+
+  .custom-title-box {
+    padding: 2px 0 2px 20px;
+  }
+
+  .product-list.owl-carousel.owl-theme.mobile-productlist {
+    padding-left: 46px;
+    padding-right: 46px;
+    padding-bottom: 30px;
+    position: relative;
+    padding-top: 34px;
+  }
+
+  .wheretobuy>p {
+    font-size: 14px;
+    line-height: 17px;
+    margin: 5px 0 21px;
+    padding-left: 20px;
+  }
+
+  .searchform {
+    padding: 0;
+  }
+
+  .searchform label {
+    font-size: 16px;
+    line-height: 19.69px;
+    margin-bottom: 8px;
+  }
+
+  .product-item.item {
+    gap: 14px;
+    padding: 12px 15px;
+  }
+
+  .product-content h4,
+  .product-content h3 {
+    font-size: 16px;
+    line-height: 20.85px;
+  }
+
+  .product-content p {
+    font-size: 14px;
+    line-height: 17px;
+    margin-bottom: 14px;
+  }
+
+  .formbox {
+    gap: 12px;
+  }
+
+  .formbox input.form-control {
+    font-size: 14px;
+    line-height: 17px;
+    border-width: 1px;
+  }
+
+  a.maplist-item h4 {
+    font-size: 16px;
+    line-height: 19.39px;
+  }
+
+  .mapleftdata h5 {
+    font-size: 16px;
+    line-height: 19.54px;
+  }
+
+  .mapleftdata p {
+    font-size: 14px;
+    line-height: 17px;
+  }
+
+  .direction {
+    font-size: 16px;
+    line-height: 19.69px;
+    margin-right: 0px;
+    margin-bottom: 0;
+  }
+
+  .contacttitle p {
+    font-size: 14px;
+    line-height: 17px;
+  }
+
+  .contacttitle {
+    padding-left: 20px;
+  }
+
+  .contacttitle::before {
+    height: 56px;
+    width: 8px;
+  }
+
+  .contact-form {
+    padding: 14px 15px 33px;
+    width: calc(100% - 30px);
+    flex: none;
+    margin: 0 auto;
+  }
+
+  .contact-form .form-group .form-control {
+    font-size: 14px;
+    line-height: 17px;
+    border-width: 1px;
+  }
+
+  button.btn.contactbtn {
+    height: 40px;
+    font-size: 14px;
+    line-height: 17px;
+  }
+
+  img.footer-logo {
+    width: 90px;
+    height: auto;
+  }
+
+  .footer-menu a {
+    font-size: 14px;
+    line-height: 17px;
+  }
+
+  button.btn.footerbtn {
+    font-size: 14px;
+    line-height: 17.69px;
+    padding: 11px 31px;
+    margin-bottom: 16px;
+  }
+
+  .footer-text {
+    font-size: 16px;
+    line-height: 20.85px;
+  }
+
+  .copyrighttext {
+    font-size: 14px;
+    line-height: 17px;
+  }
+
+  .hero-section {
+    background-image: url(../images/herobgimg-mobile.png);
+  }
+
+  .product-wheretobuy-section {
+    background-image: url(../images/OurProducts-mobile.png);
+  }
+
+  .contact-footer-section {
+    background-image: url(../images/contactfooter-mobile.png);
+  }
+
+  .btns-group {
+    gap: 15px;
+  }
+
+  .ageconfirmationmodal {
+    padding: 50px 15px 50px;
+    max-width: 100%;
+  }
+
+  .btn.self-theme-btn {
+    width: 120px;
+    height: 38px;
+    font-size: 14px;
+    padding: 7px 7px;
+  }
+
+  .ageconfirmationmodal h1 {
+    font-size: 42px;
+    line-height: 62.4px;
+  }
+
+  .ageconfirmationmodal h5 {
+    font-size: 14px;
+    line-height: 17.83px;
+  }
+
+  .ageconfirmationmodal p {
+    font-size: 14px;
+    line-height: 19.09px;
+    margin: 0 auto 30px;
+  }
+}
+
+@media (max-width: 380px) {
+  .navbar-expand-lg .header-right-section ul.navbar-nav li {
+    margin-left: 17px;
+  }
+
+  a.navbar-brand .logo {
+    width: 75px;
+  }
+
+  .btn.common-btn.white-btn {
+    font-size: 13px;
+    line-height: 15.69px;
+    padding: 7px 14px 6px;
+    margin-right: 15px;
+  }
+
+  .social-icons a {
+    font-size: 16px;
+    width: 16px;
+    height: 16px;
+  }
+
+  .footer-social-box a {
+    font-size: 16px;
+    width: 16px;
+    height: 16px;
+  }
+
+  img.footer-logo {
+    width: 75px;
+    height: auto;
+  }
+
+  .contact-form {
+    width: 100%;
+  }
+
+  .ageconfirmationmodal h1 {
+    font-size: 36px;
+    line-height: 56.4px;
+  }
+}
