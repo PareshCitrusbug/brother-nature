@@ -1,4 +1,4 @@
-<div class="searchform">
+<!-- <div class="searchform">
     <label class="label">Enter Location, ZIP or City</label>
     <div class="formbox">
         <input class="form-control" type="text" />
@@ -31,16 +31,29 @@
             </div>
         </a>
     </div>
-</div>
+</div> -->
 
 
 <?php
-/*
+
 global $wpsl_settings, $wpsl;
 
 $output         = $this->get_custom_css();
 $autoload_class = (!$wpsl_settings['autoload']) ? 'class="wpsl-not-loaded"' : '';
 
+$output .=  '<div class="container"><div class="searchform ' . $this->get_css_classes() . '"><form autocomplete="off">';
+$output .=  '<label class="label">' . esc_html($wpsl->i18n->get_translation('search_label', __('Enter Location, ZIP or City', 'wpsl'))) . '</label>';
+$output .=  '<div class="formbox">';
+$output .=  '<input id="wpsl-search-input" type="text" class="form-control" value="' . apply_filters('wpsl_search_input', '') . '" name="wpsl-search-input" placeholder="" aria-required="true" />';
+$output .=  '<button id="wpsl-search-btn" class="btn searchbtn"><img src="' . esc_url(get_template_directory_uri()) . '/assets/images/search.png" alt="search" /></button>';
+$output .=  '</div></form></div></div><div class="map-list-box">';
+$output .=  '<div id="wpsl-gmap" class="wpsl-gmap-canvas"></div>';
+$output .=  '<div id="wpsl-result-list" >';
+$output .=  '<div class="maplist" id="wpsl-stores" ' . $autoload_class . '>';
+$output .=  '<ul></ul>';
+$output .=  '</div>';
+$output .=  '</div></div>';
+/*
 $output .= '<div id="wpsl-wrap">' . "\r\n";
 $output .= "\t" . '<div class="wpsl-search wpsl-clearfix ' . $this->get_css_classes() . '">' . "\r\n";
 $output .= "\t\t" . '<div id="wpsl-search-wrap">' . "\r\n";
@@ -100,6 +113,5 @@ if ($wpsl_settings['show_credits']) {
 }
 
 $output .= '</div>' . "\r\n";
-
-return $output;
 */
+return $output;

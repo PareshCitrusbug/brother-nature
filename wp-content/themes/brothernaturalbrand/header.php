@@ -34,11 +34,11 @@
                         <div class="navbar-collapse" id="navbarSupportedContent">
                             <div class="header-right-section">
                                 <div class="header-right-top">
-                                    <a class="btn common-btn white-btn" href="">Contact Us</a>
+                                    <a class="btn common-btn white-btn" href="#contact-footer-section">Contact Us</a>
                                     <div class="social-icons">
-                                        <?php if (get_option('instagram_link')) { ?> <a href="<?php echo get_option('instagram_link') ?>"><i class="fab fa-instagram"></i></a> <?php } ?>
-                                        <?php if (get_option('facebook_link')) { ?><a href="<?php echo get_option('facebook_link') ?>"><i class="fab fa-facebook-f"></i></a> <?php } ?>
-                                        <?php if (get_option('linkedin_link')) { ?><a href="<?php echo get_option('linkedin_link') ?>"><i class="fab fa-linkedin-in"></i></a> <?php } ?>
+                                        <?php if (get_option('instagram_link')) { ?> <a href="<?php echo get_option('instagram_link') ?>" target="_blank"><i class="fab fa-instagram"></i></a> <?php } ?>
+                                        <?php if (get_option('facebook_link')) { ?><a href="<?php echo get_option('facebook_link') ?>" target="_blank"><i class="fab fa-facebook-f"></i></a> <?php } ?>
+                                        <?php if (get_option('linkedin_link')) { ?><a href="<?php echo get_option('linkedin_link') ?>" target="_blank"><i class="fab fa-linkedin-in"></i></a> <?php } ?>
                                     </div>
                                 </div>
                                 <?php

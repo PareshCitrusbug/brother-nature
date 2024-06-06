@@ -44,7 +44,7 @@ if (isset($_POST['i_am_21'])) {
                     <form method="post" action="<?= get_home_url() ?>/confirm-age">
                         <input type="hidden" name="i_am_21" value="yes" />
                         <button type="submit" name="submit_form" class="btn self-theme-btn">Yes I’m</button>
-                        <button class="btn self-theme-btn">No I’m not</button>
+                        <button type="reset" class="btn self-theme-btn">No I’m not</button>
                     </form>
 
                 </div>

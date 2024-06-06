@@ -1,4 +1,4 @@
-<div class="contact-footer-section">
+<div class="contact-footer-section" id="contact-footer-section">
     <!-- Contact section start -->
     <div class="container">
         <div class="contactbox">
@@ -68,6 +68,7 @@
         </div>
     </div>
     <!-- Copyright section end -->
+    <a class="scroll-to-top" href="#top"><i class="fas fa-caret-up"></i></a>
 </div>
 <?php wp_footer(); ?>
 
