@@ -68,7 +68,7 @@
         </div>
     </div>
     <!-- Copyright section end -->
-    <a class="scroll-to-top" href="#top"><i class="fas fa-caret-up"></i></a>
+    <a class="scroll-to-top" href="#page-top"><i class="fas fa-caret-up"></i></a>
 </div>
 <?php wp_footer(); ?>
 
