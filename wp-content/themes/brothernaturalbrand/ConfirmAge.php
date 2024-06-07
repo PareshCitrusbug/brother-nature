@@ -1,5 +1,10 @@
 <?php /* Template Name: Confirm Age */ ?>
 <?php
+
+if (isset($_COOKIE['confirm-id']) && $_COOKIE['confirm-id'] === 'yes') {
+    wp_redirect(home_url(''));
+}
+
 if (isset($_POST['i_am_21'])) {
     setcookie('confirm-id', $_POST['i_am_21'], time() + (86400 * 30), "/"); // 86400 = 1 day
     update_option('save_confirmation_dfa', $_POST['i_am_21']);
