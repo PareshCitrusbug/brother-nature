@@ -11,6 +11,7 @@ a.navbar-brand .logo {
 
 .hero-section {
   background-image: url("../images/herobgimg.png");
+/* 	background-image: url("http://35.172.87.206/brother-nature/wp-content/uploads/2024/06/Herosectionweedbackground.png"); */
   background-size: 100% 100%;
   background-position: top;
 }
@@ -94,18 +95,18 @@ a.navbar-brand {
 }
 
 .herovideobox h1 {
-  font-family: "MADE Mellow PERSONAL USE";
-  font-size: 60px;
-  font-weight: 500;
-  line-height: 78.2px;
-  text-align: left;
-  color: rgba(255, 255, 255, 1);
-  margin: 0;
-  text-transform: uppercase;
+    font-family: "MADE Mellow PERSONAL USE";
+    font-size: 54px;
+    font-weight: 500;
+    line-height: 70.2px;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+    margin: 0;
+    text-transform: uppercase;
 }
 
 .herovideobox {
-  margin-top: 41px;
+  margin-top: 34px;
   padding-left: 31px;
   position: relative;
 }
@@ -118,14 +119,29 @@ a.navbar-brand {
   top: 50%;
   transform: translatey(-50%);
   background: rgba(140, 188, 161, 1);
-  height: 142px;
+  height: 131px;
 }
-
 .video-wrapper {
-  width: 709px;
-  height: 430px;
-  max-width: 100%;
-  margin: 43px auto 60px;
+    width: 400px;
+    min-width: 400px;
+    height: 225px;
+    max-width: 100%;
+    margin: 0;
+}
+.video-wrapper iframe {
+    border: 0;
+    border: 2px solid rgba(255, 237, 0, 1);
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+/*     object-fit: cover; */
+}
+.video-about-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    margin-top: 43px;
+    margin-bottom: 60px;
 }
 
 .video-wrapper video {
@@ -139,38 +155,40 @@ a.navbar-brand {
 h1.about-title::before {
   position: absolute;
   content: "";
-  background: rgba(196, 171, 211, 1);
+  background: rgba(140, 188, 161, 1);
   width: 11px;
   height: 100%;
   left: 0;
   top: 0;
   z-index: 10;
 }
-
+.about-section p:last-child {
+    margin-bottom: 54px;
+}
 h1.about-title {
-  position: relative;
-  font-family: "MADE Mellow PERSONAL USE";
-  font-size: 56px;
-  font-weight: 500;
-  line-height: 78.4px;
-  text-align: left;
-  padding-left: 31px;
-  color: rgba(196, 171, 211, 1);
-  margin: 0 0 8px;
-  text-transform: uppercase;
-  padding-top: 14px;
-  padding-bottom: 14px;
+    position: relative;
+    font-family: "MADE Mellow PERSONAL USE";
+    font-size: 52px;
+    font-weight: 500;
+    line-height: 70.4px;
+    text-align: left;
+    padding-left: 31px;
+    color: #fff;
+    margin: 0 0 16px;
+    text-transform: uppercase;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .about-section>h4 {
-  font-family: "MADE Mellow PERSONAL USE";
-  font-size: 36px;
-  font-weight: 500;
-  line-height: 50.4px;
-  text-align: center;
-  color: rgba(140, 188, 161, 1);
-  margin: 0 0 32px;
-  text-transform: uppercase;
+    font-family: "MADE Mellow PERSONAL USE";
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 44.4px;
+    text-align: left;
+    color: rgba(255, 237, 0, 1);
+    margin: 0;
+    text-transform: uppercase;
 }
 
 .about-section p {
@@ -184,7 +202,7 @@ h1.about-title {
 }
 
 .about-section {
-  padding-bottom: 30px;
+  padding-bottom: 2px;
 }
 
 .product-wheretobuy-section {
@@ -321,12 +339,12 @@ h1.about-title {
 }
 
 .wheretobuy {
-  padding: 76px 0 35px;
+  padding: 76px 0 0px;
 }
 
 .searchform {
   padding: 0 30px;
-  padding-bottom: 30px;
+  padding-bottom: 35px;
 }
 
 .searchform label {
@@ -361,7 +379,7 @@ button.btn.searchbtn#wpsl-search-btn {
   border-radius: 6px;
 }
 
-.formbox input#wpsl-search-input.form-control {
+.formbox input#wpsl-search-input {
   border: 2px solid rgba(13, 115, 59, 1);
   width: 100%;
   height: 48px;
@@ -374,8 +392,27 @@ button.btn.searchbtn#wpsl-search-btn {
   box-shadow: none;
   outline: none;
   background: transparent;
+ border-radius: 4px;
 }
-
+.wpcf7 form.sent .wpcf7-response-output {
+    border-color: #46b450;
+    color: #46b450;
+    border-radius: 4px;
+	margin: 0;
+}
+.wpcf7 form.invalid .wpcf7-response-output, .wpcf7 form.unaccepted .wpcf7-response-output, .wpcf7 form.payment-required .wpcf7-response-output {
+    border-color: #ffb900;
+    color: #ffb900;
+    border-radius: 4px;
+	margin: 0;
+}
+.wpcf7-spinner::before {
+    background-color: #ffed00;
+}
+span.wpcf7-spinner {
+    margin: 5px auto;
+    display: block;
+}
 .map-list-box iframe {
   width: 100%;
   height: 795px;
@@ -413,22 +450,60 @@ a.maplist-item h4 {
 }
 
 .map-box-wraper .map-list-box #wpsl-gmap {
-  height: 795px !important;
+    height: 795px !important;
+    width: auto;
+    flex: 1 0 0;
+	margin-bottom: 0 !important;
+	margin-top: 0 !important;
 }
 
 .wpsl-store-location p strong {
-  font-family: "Product Sans";
-  font-size: 26px;
-  font-weight: 700;
-  line-height: 31.54px;
-  text-align: left;
-  margin: 0 0 21px;
+    font-family: "Product Sans";
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29.54px;
+    text-align: left;
+    margin: 0 0 18px;
+    display: block;
 }
-
+.wpsl-store-location p span {
+    font-family: "Product Sans";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24.54px;
+    text-align: left;
+    margin: 0 0 4px;
+    display: block;
+}
+#wpsl-result-list li p {
+    padding-left: 0;
+    margin: 0 0 10px 0;
+}
 .maplist ul li .wpsl-direction-wrap {
-  border-bottom: 0.5px solid rgba(13, 115, 59, 1);
+    border-bottom: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: Product Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.69px;
+    text-align: left;
 }
-
+a.wpsl-directions {
+    font-family: "Product Sans";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22.69px;
+    text-align: left;
+    padding-bottom: 0px;
+    border-bottom: 0.5px solid rgba(13, 115, 59, 1) !important;
+    margin-bottom: 2px;
+    margin-right: 30px;
+    color: rgba(13, 115, 59, 1);
+    display: inline-block;
+    text-decoration: none;
+}
 a.maplist-item:last-child {
   border-bottom: 0.5px solid rgba(13, 115, 59, 1);
 }
@@ -807,7 +882,68 @@ a.scroll-to-top {
 .error {
   color: red;
 }
-
+div#wpsl-result-list {
+    width: auto;
+    margin: 0;
+}
+.maplist ul li:last-child {
+    border-bottom: 0.5px solid rgba(13, 115, 59, 1);
+}
+.maplist ul li {
+    border-top: 0.5px solid rgba(13, 115, 59, 1);
+    display: block;
+    padding: 17px 13px;
+    box-sizing: border-box;
+    width: 100%;
+    text-decoration: none;
+    color: rgba(13, 115, 59, 1);
+}
+div#wpsl-stores {
+    max-height: 795px !important;
+    height: auto !important;
+}
+.video-wrapper button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 10;
+    background: transparent;
+    border: none;
+    outline: none;
+    box-shadow: none;
+    font-size: 22px;
+    color: #fff;
+    padding: 0;
+    text-align: center;
+	    opacity: 0;
+}
+.video-wrapper {
+	position:relative;
+}
+button#pausebtn.pause-btn-show {
+    display: block;
+}
+button#pausebtn {
+    display: none;
+}
+button#playbtn.play-btn-hide {
+    display: none;
+}
+button#playbtn {
+    opacity: 1 !important;
+}
+.video-wrapper:hover button {
+    opacity: 1;
+}
+img.video-thumbnail {
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    width: calc(100% - 4px);
+    height: calc(100% - 4px);
+    border-radius: 20px;
+}
 /* =================== media query start ================= */
 @media (prefers-reduced-motion: no-preference) {
   :root {
@@ -851,13 +987,13 @@ a.scroll-to-top {
   h1.about-title,
   .custom-title-box h1,
   .contacttitle h1 {
-    font-size: 52px;
-    line-height: 70.2px;
+   	font-size: 48px;
+    line-height: 65.2px;
   }
 
   .about-section>h4 {
-    font-size: 34px;
-    line-height: 50.2px;
+     font-size: 28px;
+     line-height: 38.2px;
   }
 
   .product-item {
@@ -894,6 +1030,17 @@ a.scroll-to-top {
   .contacttitle {
     width: 385px;
   }
+  .video-wrapper {
+	 width: 360px;
+	 min-width: 360px;
+	 height: 203px;
+  }
+  .video-about-wrapper {
+	gap: 30px;
+  }
+  .custom-title-box {
+    padding: 12px 0 15px 31px;
+  }
 }
 
 @media (max-width: 991px) {
@@ -917,13 +1064,13 @@ a.scroll-to-top {
   h1.about-title,
   .custom-title-box h1,
   .contacttitle h1 {
-    font-size: 48px;
-    line-height: 64.2px;
+    font-size: 40px;
+    line-height: 56.2px;
   }
 
   .about-section>h4 {
-    font-size: 28px;
-    line-height: 40.2px;
+    font-size: 26px;
+    line-height: 38.2px;
   }
 
   .about-section p {
@@ -1006,11 +1153,6 @@ a.scroll-to-top {
   .contact-footer-section {
     padding-top: 60px;
   }
-
-  .video-wrapper {
-    height: 400px;
-  }
-
   img.footer-logo {
     width: 118px;
   }
@@ -1092,6 +1234,26 @@ a.scroll-to-top {
     font-size: 18px;
     line-height: 22.69px;
   }
+	.wpsl-store-location p strong {
+		font-size: 22px;
+		line-height: 27.54px;
+		margin: 0 0 18px;
+	}
+	.map-box-wraper .map-list-box #wpsl-gmap {
+		height: 600px !important;
+	}
+	div#wpsl-stores {
+    	max-height: 600px !important;
+    	height: auto !important;
+	}
+	a.wpsl-directions {
+		margin-right: 0px;
+	}
+	.video-wrapper {
+        width: 340px;
+        min-width: 340px;
+        height: 191px;
+    }
 }
 
 @media (max-width: 767px) {
@@ -1127,10 +1289,13 @@ a.scroll-to-top {
   .custom-title-box h1,
   .contacttitle h1,
   .contact-form h2 {
-    font-size: 34px;
-    line-height: 46.2px;
+    font-size: 29px;
+    line-height: 42.2px;
   }
-
+  h1.about-title {
+     padding-top: 8px;
+     padding-bottom: 8px;
+  }
   .herovideobox h1::before {
     height: 100%;
   }
@@ -1142,18 +1307,18 @@ a.scroll-to-top {
   }
 
   .video-wrapper {
-    max-width: calc(100% - 62px);
-  }
-
-  .video-wrapper {
-    max-width: calc(100% - 62px);
-    height: 260px;
-  }
-
+     width: 270px;
+     min-width: 270px;
+     height: 152px;
+   }
+   .video-about-wrapper {
+        gap: 25px;
+	   margin-bottom: 44px;
+    }
   .about-section>h4 {
-    font-size: 22px;
-    line-height: 32.2px;
-    margin-bottom: 22px;
+	  font-size: 20px;
+	  line-height: 30.2px;
+	  margin-bottom: 0;
   }
 
   .about-section p {
@@ -1220,7 +1385,7 @@ a.scroll-to-top {
   }
 
   .wheretobuy {
-    padding: 30px 0 26px;
+    padding: 30px 0 0px;
   }
 
   .wheretobuy>p {
@@ -1460,6 +1625,30 @@ a.scroll-to-top {
     font-size: 50px;
     line-height: 68.4px;
   }
+  .map-box-wraper .map-list-box #wpsl-gmap {
+	  width: 100%;
+	  float: none;
+	  min-width: 100%;
+	  height: 493px !important; 
+  }
+	div#wpsl-result-list {
+		width: 100%;
+		margin: 0;
+	}
+	.wpsl-store-location p strong {
+        font-size: 20px;
+        line-height: 24.54px;
+        margin: 0 0 16px;
+    }
+	a.wpsl-directions {
+		font-size: 16px;
+		line-height: 20.69px;
+	}
+	.formbox input#wpsl-search-input {
+		height: 42px;
+		font-size: 14px;
+		line-height: 16.41px;
+	}
 }
 
 @media (max-width: 575px) {
@@ -1526,21 +1715,16 @@ a.scroll-to-top {
   }
 
   .herovideobox h1::before {
-    height: 56px;
     width: 8px;
   }
-
-  .video-wrapper {
-    max-width: calc(100% - 32px);
-    height: 260px;
-    margin: 45px auto 32px;
-  }
-
+.video-about-wrapper {
+    flex-wrap: wrap;
+    margin-bottom: 0;
+}
   h1.about-title {
-    height: 56px;
-    line-height: 56px;
-    padding-left: 20px;
-  }
+        padding-left: 20px;
+        margin-bottom: 16px;
+    }
 
   h1.about-title::before {
     width: 8px;
@@ -1557,10 +1741,6 @@ a.scroll-to-top {
     font-size: 14px;
     margin: 0 0 18px;
     line-height: 17px;
-  }
-
-  .about-section {
-    padding-bottom: 24px;
   }
 
   .custom-title-box p {
@@ -1593,7 +1773,7 @@ a.scroll-to-top {
   }
 
   .searchform {
-    padding: 0;
+    padding: 0 0 35px;
   }
 
   .searchform label {
@@ -1754,21 +1934,33 @@ a.scroll-to-top {
     line-height: 19.09px;
     margin: 0 auto 30px;
   }
+	.wpsl-store-location p strong {
+		font-size: 16px;
+		line-height: 20.54px;
+		margin: 0 0 8px;
+	}
+	.wpsl-store-location p span {
+		font-size: 16px;
+		line-height: 19.54px;
+		margin: 0 0 4px;
+	}
 }
 
-@media (max-width: 380px) {
+@media (max-width: 390px) {
   .navbar-expand-lg .header-right-section ul.navbar-nav li {
-    margin-left: 17px;
+    margin-left: 15px;
   }
-
   a.navbar-brand .logo {
-    width: 75px;
+    width: 65px;
   }
-
+.navbar-expand-lg .header-right-section ul.navbar-nav li a {
+        font-size: 13px;
+        line-height: 16px;
+    }
   .btn.common-btn.white-btn {
     font-size: 13px;
-    line-height: 15.69px;
-    padding: 7px 14px 6px;
+    line-height: 14.69px;
+    padding: 5px 12px 4px;
     margin-right: 15px;
   }
 
@@ -1779,9 +1971,9 @@ a.scroll-to-top {
   }
 
   .footer-social-box a {
-    font-size: 16px;
-    width: 16px;
-    height: 16px;
+    font-size: 14px;
+    width: 15px;
+    height: 15px;
   }
 
   img.footer-logo {
@@ -1792,7 +1984,9 @@ a.scroll-to-top {
   .contact-form {
     width: 100%;
   }
-
+.social-icons {
+    gap: 10px;
+}
   .ageconfirmationmodal h1 {
     font-size: 36px;
     line-height: 56.4px;

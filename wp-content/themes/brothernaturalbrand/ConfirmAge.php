@@ -1,6 +1,5 @@
 <?php /* Template Name: Confirm Age */ ?>
 <?php
-
 if (isset($_COOKIE['confirm-id']) && $_COOKIE['confirm-id'] === 'yes') {
     wp_redirect(home_url(''));
 }

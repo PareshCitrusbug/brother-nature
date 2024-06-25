@@ -4,46 +4,60 @@ get_header() ?>
     <!-- hero section start -->
     <div class="herovideobox">
         <h1>
-            Welcome to<br />
+            Welcome To Our Mellow World<br />
             <span>Brother nature Brands</span>
         </h1>
     </div>
-    <div class="video-wrapper">
-        <video id="home-video" width="800px" height="526px" playsinline onclick="playPauseVideo()">
-            <source src="https://cohort.demoproject.info/wp-content/uploads/2024/04/1409899-uhd_3840_2160_25fps.mp4" type="video/mp4" />
-        </video>
-    </div>
-    <!-- hero section end -->
+	<div class="video-about-wrapper">
+		<div class="video-wrapper">
+<!-- 			<video id="home-video" width="800px" height="526px" playsinline loop controls >
+				<source src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/BrotherNatureBrandsAboutUs.mp4" type="video/mp4" />
+			</video> -->
+			<iframe frameborder="0" allowfullscreen="" scrolling="no" allow="autoplay;fullscreen" width="400" height="225" src="https://onelineplayer.com/player.html?autoplay=false&autopause=false&muted=false&loop=true&url=https%3A%2F%2Fwww.dropbox.com%2Fscl%2Ffi%2Fjbfc9x4idzwdv7siw6xue%2FBNB-About-Us.mp4%3Frlkey%3Df1bh5z28de8bdmxtgjn2k7vhd%26st%3Dlcev23hm%26raw%3D1&poster=https%3A%2F%2Fwww.dropbox.com%2Fscl%2Ffi%2Fles7n65vd1qawvch5pecm%2FAbout-Us-Thumbnail.png%3Frlkey%3Dvj6qt96ugfn033cvm5ltzw97w%26st%3Dmp31dkkx%26raw%3D1&time=false&progressBar=false&overlay=true&muteButton=false&fullscreenButton=true&style=light&quality=auto&playButton=true"></iframe>
 
-    <!-- aboutus section start -->
-    <div class="about-section" id="about-us">
-        <h1 class="about-title">About us</h1>
-        <h4>“Life’s Too Short To Smoke Factory Weed”</h4>
-        <p>
-            Brother Nature Brands was created by fans of the flower for fans
-            of the flower. We’re here because the world needs a team dedicated
-            to the community of cannaseurs that value uncompromising quality.
-            Our goal is to provide products that stay close to the source with
-            safe farming, cultivation, and processing practices.
-        </p>
-        <p>
-            We specialize in curating the finest top-shelf flower and all
-            natural solventless cold water hash. We know that Craft Quality
-            requires more expertise and care and simply can’t be matched by
-            shortcut methods that focus only on high yield. We partner with
-            the most ethical testing labs to avoid “THC Inflation” and provide
-            full transparency on our Single Source, Never Remediated,
-            Solventless hash and blends.
-        </p>
-        <p>
-            We love our customers and fans and are dedicated to partnering
-            with the finest dispensaries and processors. We pride ourselves on
-            innovative product design, great customer service, and educating
-            budtenders and consumers all while delivering great value for
-            high-quality products.
-        </p>
-    </div>
-    <!-- aboutus section end -->
+<!-- 			<img src="http://35.172.87.206/brother-nature/wp-content/uploads/2024/06/image.png" alt="video" class="video-thumbnail" />
+			<button class="playbtn" id="playbtn"  onclick="playPauseVideo()">
+				<i class="fas fa-play"></i>
+			</button>
+			<button class="pausebtn" id="pausebtn"  onclick="playPauseVideo()">
+				<i class="fas fa-pause"></i>
+			</button> -->
+		</div>
+		<!-- hero section end -->
+
+		<!-- aboutus section start -->
+		<div class="about-section" id="about-us">
+			<h1 class="about-title">About us</h1>
+			<h4>“Life’s Too Short To Smoke Factory Weed”</h4>
+		</div>
+		<!-- aboutus section end -->
+	</div>
+	<!-- aboutus section start -->
+	<div class="about-section">
+		<p>
+			Brother Nature Brands was created by fans of the flower for fans
+			of the flower. We’re here because the world needs a team dedicated
+			to the community of cannaseurs that value uncompromising quality.
+			Our goal is to provide products that stay close to the source with
+			safe farming, cultivation, and processing practices.
+		</p>
+		<p>
+			We specialize in curating the finest top-shelf flower and all
+			natural solventless cold water hash. We know that Craft Quality
+			requires more expertise and care and simply can’t be matched by
+			shortcut methods that focus only on high yield. We partner with
+			the most ethical testing labs to avoid “THC Inflation” and provide
+			full transparency on our Single Source, Never Remediated,
+			Solventless hash and blends.
+		</p>
+		<p>
+			We love our customers and fans and are dedicated to partnering
+			with the finest dispensaries and processors. We pride ourselves on
+			innovative product design, great customer service, and educating
+			budtenders and consumers all while delivering great value for
+			high-quality products.
+		</p>
+	</div>
 </div>
 </div>
 

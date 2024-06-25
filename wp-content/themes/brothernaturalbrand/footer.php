@@ -12,7 +12,7 @@
             <div class="contact-form">
                 <h2>Stay Updated!</h2>
 
-                <?php echo do_shortcode('[contact-form-7 id="39e8467" title="Footer Contact Us Form"]'); ?>
+                <?php echo do_shortcode('[contact-form-7 id="795ecd4" title="Footer Contact Us Form"]'); ?>
                 <!-- <form class="form" method="post" action="<?php echo admin_url('admin-ajax.php'); ?>" id="contact-form" autocomplete="off">
                     <div class="form-group">
                         <input type="text" name="name" required class="form-control" placeholder="Full Name" />
@@ -68,7 +68,7 @@
         </div>
     </div>
     <!-- Copyright section end -->
-    <a class="scroll-to-top" href="#page-top"><i class="fas fa-caret-up"></i></a>
+	<a class="scroll-to-top" href="#page-top"><i class="fas fa-caret-up"></i></a>
 </div>
 <?php wp_footer(); ?>
 
